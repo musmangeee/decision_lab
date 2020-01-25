@@ -1,0 +1,125 @@
+/*
+ *   Fonts
+ */
+
+@font-face {
+    font-family: 'Sailec';
+    src: url(../fonts/sailec_fix/Sailec-Regular.woff);
+}
+
+
+@font-face {
+    font-family: 'Lyon Display FIX';
+    src: url(../fonts/lyon_display_fix/LyonDisplay-Regular.woff);
+}
+
+
+body{
+    margin: 0;
+    font-family: "Sailec", SansSerif;
+    color: #334445;
+    font-size: 0.9rem;
+}
+
+
+/*
+ * Header CSS
+ */
+
+header{
+    padding-top: 1rem;
+    background: url(../images/image_from_ios-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #334445;
+}
+
+.header-text-section
+{
+    padding-top: 7rem;
+    padding-bottom: 20rem;
+}
+/*
+ * Headings
+ */
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+
+/*
+ * Main Section
+ */
+
+main{
+    margin-top: -15rem;
+}
+
+
+.intervention-box
+{
+
+}
+
+.bg-theme
+{
+    background-color: #f4f7f7;
+}
+
+.text-theme
+{
+    color: #f4f7f7;
+}
+
+
+
+.intervention-left{
+    background-color: #f4f7f7;
+    padding: 2rem;
+}
+
+.intervention-right{
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.intervention-left p,
+.intervention-right p
+{
+    font-size: 0.9rem;
+}
+
+.intervention-left > p
+{
+    margin-bottom: 2rem;
+}
+
+.intervention-link
+{
+    color: #2cc2c4;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.intervention-left h2,
+.intervention-right h2
+{
+    margin-bottom: 1.5rem;
+}
+
+.intervention-right h6
+{
+    color: #2cc2c4;
+}
+
+.intervention-right p
+{
+    color: #849aa8;
+    font-size: 0.8rem;
+}
