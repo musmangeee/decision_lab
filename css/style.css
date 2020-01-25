@@ -167,14 +167,16 @@ main{
 
 .side-panel
 {
-    position: relative;
+    //position: relative;
     padding: 0;
     overflow: hidden;
 }
 
 .side-panel-inner
 {
-    position: fixed;
+    position: absolute;
+    top: 50%;
+
     width:inherit;
     max-width:380px;
     height: max-content;
@@ -386,4 +388,166 @@ footer
 {
     font-size: 0.8rem;
     margin-bottom: 6rem;
+}
+
+
+
+/********* Home Page CSS ********/
+body.home
+{
+    background: url(../images/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+
+.home header
+{
+    background: unset;
+}
+
+.home header span
+{
+    color: #fff;
+}
+
+.home-main
+{
+    margin-top: 0;
+}
+
+.hero-section h1
+{
+    font-size: 4.5rem;
+    margin-top: 10rem;
+}
+
+.hero-section p
+{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.btn-hero
+{
+    margin-top: 3rem;
+    color: #fff;
+    font-size: .8rem;
+    padding: 1.5rem 6rem;
+    background-color: #2cc2c4;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-hero span
+{
+    padding-left: 1rem  ;
+}
+
+
+/************** Steps CSS ********************/
+.steps-header .header-text-section h1
+{
+    font-family: "Sailec", SansSerif;
+}
+
+
+/********************* Step One ****************/
+.step-one-radio {
+    background-color: #fff;
+    display: block;
+    margin: 10px 0;
+    position: relative;
+    border: 1px solid #dee2e6;
+}
+.step-one-radio label {
+    padding: 12px 30px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    color: #3C454C;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: color 200ms ease-in;
+    transition: color 200ms ease-in;
+    overflow: hidden;
+}
+
+.step-one-radio label  h2{
+    margin-top: 5rem;
+}
+
+.step-one-radio label  p{
+    color: #849aa8;
+    margin-bottom: 2rem;
+}
+
+.step-one-radio label:before {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    content: '';
+    background-color: #2cc2c4;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%) scale3d(1, 1, 1);
+    transform: translate(-50%, -50%) scale3d(1, 1, 1);
+    -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    z-index: -1;
+}
+.step-one-radio label:after {
+    width: 32px;
+    height: 32px;
+    content: '';
+    border: 10px solid #D1D7DC;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.414 11L4 12.414l5.414 5.414L20.828 6.414 19.414 5l-10 10z' fill='%23fff' fill-rule='nonzero'/%3E%3C/svg%3E ");
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    -webkit-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+.step-one-radio input:checked ~ label {
+    color: #fff;
+}
+
+.step-one-radio input:checked ~ label p{
+    color: #fff;
+}
+
+.step-one-radio input:checked ~ label:before {
+    -webkit-transform: translate(-50%, -50%) scale3d(56, 56, 1);
+    transform: translate(-50%, -50%) scale3d(56, 56, 1);
+    opacity: 1;
+}
+.step-one-radio input:checked ~ label:after {
+    background-color: #334445;
+    border-color: #fff;
+}
+.step-one-radio input {
+    width: 32px;
+    height: 32px;
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+    z-index: 2;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    visibility: hidden;
 }
