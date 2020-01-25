@@ -40,6 +40,11 @@ header{
     padding-top: 7rem;
     padding-bottom: 20rem;
 }
+
+.header-text-section h1
+{
+    font-family: "Lyon Display FIX";
+}
 /*
  * Headings
  */
@@ -60,6 +65,9 @@ h4{
     font-size: 16px;
 }
 
+a{
+    color: #2cc2c4;
+}
 
 /*
  * Main Section
@@ -84,8 +92,6 @@ main{
 {
     color: #f4f7f7;
 }
-
-
 
 .intervention-left{
     background-color: #f4f7f7;
@@ -163,6 +169,7 @@ main{
 {
     position: relative;
     padding: 0;
+    overflow: hidden;
 }
 
 .side-panel-inner
@@ -262,3 +269,121 @@ margin-top: 0;
     margin-right: .5rem;
 }
 
+.section-theme
+{
+    background-color: #2cc2c4;
+}
+
+.tools-box
+{
+    position: relative;
+    padding: 1.75rem 1.5rem;
+    background-color: #f4f7f7;
+    height: 250px;
+}
+
+.tools-box p
+{
+    color: #849aa8;
+    font-size: 0.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.tools-box a
+{
+
+    font-size: 0.8rem;
+}
+
+.section-enaluators
+{
+    overflow: hidden;
+}
+
+.section-tools {
+    background-color: #fff;
+    margin-top: 7rem;
+    margin-bottom: 8rem;
+}
+.section-tools p
+{
+    color: #849aa8;
+    font-size: 0.8rem;
+    margin-bottom: 4rem ;
+}
+
+footer
+{
+    background-color: #ebf0f0;
+    padding-top: 5rem;
+}
+
+.subscription
+{
+    padding: 3rem;
+    background-color: #fff;
+    margin-bottom: 7rem;
+    margin-top: -8rem;
+}
+
+.theme-input
+{
+    font-size: 0.8rem;
+    border: 0;
+    border-bottom: 1px solid #c6d0d0;
+    background-color: transparent;
+    color: #849aa8;
+}
+
+.contact-form
+{
+    background-color: #f4f7f7;
+    padding: 4rem;
+    margin-bottom: 5rem;
+}
+
+.contact-form p
+{
+    color: #849aa8;
+    font-size: 0.8rem;
+    margin-bottom: 4rem;
+}
+
+.contact-form .form-group
+{
+    margin-bottom: 1.5rem;
+}
+
+.contact-form button
+{
+    margin-top: 1rem;
+}
+
+.btn-theme
+{
+    border-radius: 0;
+    background-color: #2cc2c4;
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+}
+
+.report
+{
+    padding: 5rem;
+}
+
+.report p
+{
+    color: #849aa8;
+    font-size: 0.8rem;
+    margin-bottom: 4rem;
+}
+
+.report a
+{
+    font-size: 0.8rem;
+    margin-bottom: 6rem;
+}
