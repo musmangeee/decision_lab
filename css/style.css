@@ -52,6 +52,14 @@ h2{
     font-size: 24px;
 }
 
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 16px;
+}
+
 
 /*
  * Main Section
@@ -64,7 +72,7 @@ main{
 
 .intervention-box
 {
-
+    margin-bottom: 3rem;
 }
 
 .bg-theme
@@ -100,7 +108,7 @@ main{
     margin-bottom: 2rem;
 }
 
-.intervention-link
+.intervention-left a
 {
     color: #2cc2c4;
     text-transform: uppercase;
@@ -123,3 +131,134 @@ main{
     color: #849aa8;
     font-size: 0.8rem;
 }
+
+.intervention-right img
+{
+    margin-top: 3rem;
+}
+
+.intervention-inner-box
+{
+    margin-top: 2rem;
+    border: 1px solid #e6eaea;
+    padding: 1.5rem;
+    border-radius: .25rem;
+}
+
+.intervention-inner-box p
+{
+    color: #849aa8;
+    font-size: 0.8rem;
+}
+
+.intervention-inner-box a
+{
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 0.8rem;
+}
+
+
+.side-panel
+{
+    position: relative;
+    padding: 0;
+}
+
+.side-panel-inner
+{
+    position: fixed;
+    width:inherit;
+    max-width:380px;
+    height: max-content;
+    box-shadow: 0px 0px 15px rgba(51, 68, 69, 0.19);;
+    background-color: #fff;
+}
+
+.side-panel-top
+{
+    padding: 2.2rem 2rem;
+}
+
+.side-panel-inner h3
+{
+    font-family: 'Lyon Display FIX';
+    margin-bottom: 0;
+}
+
+.side-panel-inner a
+{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    color: #2cc2c4;
+}
+
+.side-panel-inner hr
+{
+margin-top: 0;
+}
+
+.side-panel-rest
+{
+    padding: 0.5rem 2rem;
+}
+
+.side-panel-rest h4
+{
+    margin-bottom: 1.5rem;
+}
+
+.side-panel-rest
+{
+    font-size: 0.8rem;
+    letter-spacing: 0.2px;
+}
+
+.side-panel-rest a
+{
+    color: #333;
+}
+
+.side-panel-rest hr
+{
+    margin-top: 1rem;
+}
+
+.status-bar-box .status-bar
+{
+    width: 30%;
+    display: inline-block;
+    height: 6px;
+    background: #f1f1f1;
+    border-radius: 3px;
+    margin-right: 3px;
+}
+
+.status-bar.active
+{
+    background: #2cc2c4;
+}
+
+.enaluators-description
+{
+    margin-top: 1rem;
+    font-size: 10px;
+    color: #849aa8;
+}
+
+.enaluators-social
+{
+    margin: 2rem 0rem;
+}
+
+.enaluators-social p
+{
+    color: #849aa8;
+}
+
+.enaluators-social a
+{
+    margin-right: .5rem;
+}
+
